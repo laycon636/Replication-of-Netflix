@@ -1,0 +1,201 @@
+<content>
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Netflix Landing Page</title>  <!-- Bootstrap CSS -->  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">  <!-- Font Awesome -->  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  <!-- Your CSS -->  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- NAV / HEADER -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg container-fluid px-4 py-3">
+      <div class="container">
+        <a class="navbar-brand text-danger fw-bold fs-3" href="#">Netflix</a>    <div class="d-flex ms-auto">
+      <a class="btn btn-danger" href="signin.html">Sign in</a>
+    </div>
+  </div>
+</nav>
+
+<div class="header-content container">
+  <div class="row justify-content-center">
+    <div class="col-11 col-md-9 col-lg-7 text-center text-light">
+      <h1 class="fw-bold display-5 display-md-4">Unlimited movies,TV shows<br class="d-none d-sm-block">  and more</h1>
+      <p class="fs-5 mb-3">Starts at ₦2,500. Cancel anytime.</p>
+
+      <p class="mb-3">Ready to watch? Enter your email to create or restart your membership.</p>
+
+      <form class="d-flex gap-2 justify-content-center email-box w-100" role="search" onsubmit="return false;">
+        <input class="form-control" type="email" placeholder="Email address" aria-label="Email address">
+        <button class="btn btn-danger">Get Started</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+  </header>  <!-- MAIN -->  <main class="py-5">
+    <div class="container">
+      <h2 class="h3 text-light text-center mb-4">Trending Now</h2>  <!-- Thumbnails: responsive using bootstrap grid -->
+  <div class="row g-3 mb-5">
+    <div class="col-6 col-md-3">
+      <img src="https://occ-0-5544-299.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcLz1IwQ3x4RQ3lhmcYYO6qykQb9EN9aJ4ksb1JIHYTp9KhKPzntAelv2F-NlmSVZ5yDvZ4r4TO-JJbP7440bCASej7rOfdWxqk.jpg?r=01e"
+           alt="thumb1" class="img-fluid rounded">
+    </div>
+
+    <div class="col-6 col-md-3">
+      <img src="https://occ-0-5544-299.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfaFQeDB1y4Ue2cqFCpK-7ko8ZL44NKOcgtXhPK1XbzHjtpeilDnjqVc_NNV3PSbnrLkC6bsyZXrEQA0z3YOx-OaREP48vcs1u0.jpg?r=37b"
+           alt="thumb2" class="img-fluid rounded">
+    </div>
+
+    <div class="col-6 col-md-3">
+      <img src="https://occ-0-5544-299.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABSoNKxGfn-PkMPKovNu2Za7MmAfSqqxjaV_R_kg8WNpdvt9DT8J5UTOa8I_KzCpcTWeTmcLo8OzwpPDTmDmvMCFUI9QyeI_jVLdaUAdLe4A_f6X1aKStbQD86np_iewuQ7vy.jpg?r=8f8"
+           alt="thumb3" class="img-fluid rounded">
+    </div>
+
+    <div class="col-6 col-md-3">
+      <img src="https://occ-0-5544-299.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfSNdGvSuspHvbxAhT8SkogqXeeT1ZbufvqhvxY-F-wyQwvVPhPl5E_1GGZ9x4C-Xq-oE9HpTA7sLOFIw8JYFK8gY52QplTMWds.jpg?r=b32"
+           alt="thumb4" class="img-fluid rounded">
+    </div>
+  </div>
+
+  <!-- More reasons to join -->
+  <h2 class="h3 text-light text-center mb-4">More reasons to join</h2>
+  <div class="row g-4 mb-5">
+    <div class="col-12 col-md-6 col-lg-3 d-flex">
+      <div class="kids-card w-100">
+        <h3>Enjoy on your TV</h3>
+        <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+        <i class="fa-solid fa-tv fa-lg ms-auto"></i>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 d-flex">
+      <div class="kids-card w-100">
+        <h3>Download your shows to watch offline</h3>
+        <p>Save your favorites easily and always have something to watch.</p>
+        <i class="fa-solid fa-download fa-lg ms-auto"></i>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 d-flex">
+      <div class="kids-card w-100">
+        <h3>Watch everywhere</h3>
+        <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        <i class="fa-solid fa-tv-retweet fa-lg ms-auto"></i>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 d-flex">
+      <div class="kids-card w-100">
+        <h3>Create profiles for kids</h3>
+        <p>Send kids on adventures with their favorite characters in a space made just for them — free with your membership.</p>
+        <i class="fa-solid fa-face-smile fa-lg ms-auto"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ (uses bootstrap cards) -->
+  <h2 class="h3 text-light text-center mb-4">Frequently asked questions</h2>
+  <div class="accordion" id="faqAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq1">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+          What is Netflix?
+        </button>
+      </h2>
+      <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Netflix is a streaming service that offers movies, TV shows and more.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+          How much does Netflix cost?
+        </button>
+      </h2>
+      <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">Pricing varies by plan and country.</div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+          Where can I watch?
+        </button>
+      </h2>
+      <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">On supported devices — phones, tablets, smart TVs and web browsers.</div>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="mt-5 text-center text-light">
+    <p class="mb-3">Ready to watch? Enter your email to create or restart your membership.</p>
+
+    <form class="d-flex gap-2 justify-content-center email-box w-100" role="search" onsubmit="return false;">
+      <input class="form-control" type="email" placeholder="Email address" aria-label="Email address">
+      <button class="btn btn-danger">Get Started</button>
+    </form>
+  </section>
+</div>
+
+  </main>  <!-- FOOTER -->  <footer class="py-5">
+    <div class="container text-light">
+      <p class="mb-3" style="color:#b6b6b6; text-decoration: underline;">Questions? Contact us</p>  <div class="row g-3 mb-4">
+    <div class="col-6 col-md-3">
+      <ul class="list-unstyled small">
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Investor relations</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Speed test</a></li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-3">
+      <ul class="list-unstyled small">
+        <li><a href="#">Help center</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Cookies Preferences</a></li>
+        <li><a href="#">Legal Notices</a></li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-3">
+      <ul class="list-unstyled small">
+        <li><a href="#">Accounts</a></li>
+        <li><a href="#">Ways to watch</a></li>
+        <li><a href="#">Corporate Information</a></li>
+        <li><a href="#">Only on netflix</a></li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-3">
+      <ul class="list-unstyled small">
+        <li><a href="#">Media Center</a></li>
+        <li><a href="#">Terms of use</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-start mb-3">
+    <div class="dropdown">
+      <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent; border-color:#444;">
+        English
+      </button>
+    </div>
+  </div>
+
+  <p class="small" style="color:#9a9a9a;">Netflix Nigeria</p>
+  <p class="small" style="color:#9a9a9a;">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a></p>
+</div>
+
+  </footer>  <!-- Bootstrap JS bundle -->  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+</content>
